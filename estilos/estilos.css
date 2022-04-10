@@ -19,6 +19,31 @@
 }
 
 
+/* HOVER TÍTULO*/ 
+
+.titulo:hover{
+    color: orange;
+}
+
+/* ANIMACIÓN FOTO*/ 
+
+@keyframes aparecer{
+    0% {opacity: 100%;}
+    25% {opacity: 75%;}
+    60% {opacity: 50%;}
+    75% {opacity: 25%;}
+    100% {opacity: 0%;}
+
+}
+
+.cuentaIg{
+
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
 .encabezado{
 
 
@@ -82,6 +107,7 @@ header{color: rgb(0, 0, 0);
     
 
 }
+
 
 
 .pantalla{
@@ -285,6 +311,7 @@ ul li{
 
 }
 
+/* TRANSLATE VIDEO */
 .video{
 
     position: relative;
@@ -292,6 +319,8 @@ ul li{
     right: 0px;
     bottom: 300px;
     left: 250px;
+
+    transform: translate(400px, -200px);
 }
 
 .asidePol{
@@ -384,8 +413,12 @@ left: 650px ;
 
 .titulo{
 
+    color: #000000;
     grid-area: titulo;
+
 }
+
+
 
 .menu{
 
@@ -405,7 +438,10 @@ left: 650px ;
     grid-area: nosotros;
 }
 
+/* GRADIENTE SLOGAN */
 .slogan{
+
+    background-image: radial-gradient(orange, rgb(175, 52, 52));
 
     grid-area: slogan;
 }
