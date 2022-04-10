@@ -19,22 +19,25 @@
 }
 
 
-/* HOVER TÍTULO*/ 
-
+/* HOVER TÍTULO*/
+ 
 .titulo:hover{
     color: orange;
 }
+ 
 
 /* ANIMACIÓN FOTO*/ 
 
-@keyframes aparecer{
-    0% {opacity: 100%;}
-    25% {opacity: 75%;}
-    60% {opacity: 50%;}
-    75% {opacity: 25%;}
-    100% {opacity: 0%;}
-
+@keyframes aparecer {
+ 
+        0% {opacity: 100%;}
+        25% {opacity: 75%;}
+        60% {opacity: 50%;}
+        75% {opacity: 25%;}
+        100% {opacity: 0%;}
+             
 }
+
 
 .cuentaIg{
 
