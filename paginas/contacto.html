@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="spanish">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qué contamos|Contacto</title>
+    <link rel="stylesheet" href="../estilos/estilos.css">
+        
+</head>
+<body class="fondoContacto">
+
+    <img src="../multimedia/logo.PNG" alt="Logo Que Contamos" width="100px" height="85px">
+
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="entretenimiento.html">Entretenimiento</a></li>
+                <li><a href="internacional.html">Internacional</a></li>
+                <li><a href="politica.html">Política</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--  formulario de contacto justificado a la izquierda -->  
+
+    <h1 class="contacto">Contacto</h1>
+
+
+
+        <h2>Recibí la infomración más rápido a tu mail</h2>
+    <form class="fondoForm">
+        <label for="nombre">Nombre: </label>
+        <input type="text" placeholder="Ingrese su nombre" name="nombre">
+        <br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" placeholder="Ingrese su apellido" name="apellido">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Ingrese su email" name="emaiel">
+        <br>
+        <label for="contraseña">Contraseña: </label>
+        <input type="password" placeholder="Ingrese su contraseña">
+        <br>
+        
+        <label for="genero">Seleccione su género: </label>
+        <input type="radio" value="fem" name="genero">Femenino
+        <input type="Radio" value="mas" name="genero">Masculino
+        <input type="radio" value="pna" name="genero">Prefiero no aclararlo
+        <br>
+               
+        <label for="pais">¿Desde qué país nos leés?</label>
+         <select name="pais" id="">
+            <option value="arg">Argentina</option>
+            <option value="uru">Uruguay</option>
+            <option value="par">Paraguay</option>
+            <option value="chi">Chile</option>
+            <option value="otr">Otro</option>
+        </select>
+
+        <br>
+        <label for="seccion"></label>
+        <fieldset>
+            <legend>Sección de preferencia</legend>
+            <select name="seccion" id="">
+                <option value="pol">Política</option>
+                <option value="int">Internacional</option>
+                <option value="ent">Entretenimiento</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" value="1"> Acepta los terminos y condiciones
+        <input type="checkbox" value="2"> Acepta recibir mails con informacion
+
+        <br>
+
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Qué te parece nuestra página"></textarea>
+
+        <input type="submit" value="Enviar formulario">
+        <input type="reset" value="Eliminar todo">
+
+    </form>
+
+    
+        <footer>Somos un medio de comunicación fundado en el 2020 cuando llegó la pandemia,
+        y también una lluvia de fake news. Lo que hacemos es infomrar de una manera
+        interactiva e integral sobre todos los temas de la agenda, y mucho más... ¡Gracias por leernos y confiar!
+    </footer>
+
+</body>
+</html>
