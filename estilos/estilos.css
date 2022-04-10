@@ -18,6 +18,10 @@
 
 }
 
+.titulo:hover{
+    color: orange;
+}
+
 @keyframes aparecer{
     0% {opacity: 100%;}
     25% {opacity: 75%;}
@@ -30,7 +34,6 @@
  .titulo:hover{
     color: orange;
 }
-
 
 .encabezado{
 
