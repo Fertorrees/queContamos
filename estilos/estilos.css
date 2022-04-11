@@ -30,9 +30,21 @@
     100% {opacity: 0%;}
  }
 
+.cuentaIg{
+
+    animation-name: aparecer;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+}
+
 /* HOVER TÍTULO*/
  .titulo:hover{
     color: orange;
+}
+
+.slogan{
+    background-image: radial-gradient(orange, red);
 }
 
 .encabezado{
