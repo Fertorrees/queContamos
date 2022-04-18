@@ -2,229 +2,42 @@
 
 /* Página principal */
 
+
 .titulo{
-    height: 80px;
-
-    background-size: cover;
+    height: 115px;
+ 
     color: rgb(0, 0, 0);
-    font-size: 100px;
-    text-align: center;
+    font-size: 80px;
+    
     font-style: italic;
-  
+ 
+    background-color: #e4e72f;
 
-    padding: 50px;
-    margin: 15px;
-
-
+    text-align: center;
 }
 
 .titulo:hover{
-    color: orange;
+    color: rgb(42, 136, 190);
 }
 
-@keyframes aparecer{
-    0% {opacity: 100%;}
-    25% {opacity: 75%;}
-    60% {opacity: 50%;}
-    75% {opacity: 25%;}
-    100% {opacity: 0%;}
- }
-
-.cuentaIg{
-
-    animation-name: aparecer;
-    animation-duration: 4s;
-    animation-delay: 5s;
-    animation-timing-function: linear;
-}
-
-/* HOVER TÍTULO*/
- .titulo:hover{
-    color: orange;
-}
 
 .slogan{
+
     background-image: radial-gradient(orange, red);
-}
-
-.encabezado{
-
-
-    
-    padding: 50px;
-    margin: 15px;
-
-}
-.presentacion{
-
-    
-    margin: 15px;
-
-}
-
-
-h4{
-    background-color: #e4e72f;
-}
-
-
-ul li {color: rgb(54, 179, 120)}
-
-ol li {color: green}
-
-
-.logo{
-
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 0px;
-margin-left: 10px;
-
-}
-
-
-
-.contacto{
-
     text-align: center;
-    font-style: italic;
-    font-size: 40px;
-
-
-}
-
-
-
-p{
-
-    color: #000000 ;
-    font-size: 20px;
-    font-style: italic;
-    
-}
-
-header{color: rgb(0, 0, 0);
-
-    font-size: 23px;
-    
-    
-
-}
-
-
-.pantalla{
-
-    background-color: rgba(213, 248, 248, 0.856);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    background-image: url(../multimedia/mundo-removebg-preview.png)
 
     
 
 }
-
-
-
-
-nav{
-
-    color: rgb(rgb(116, 50, 160), rgba(116, 207, 116, 0.514), blue)
-}
-
-.negrita {
-
-font-weight: bold;
-}
-
-aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-}
-
-aside > image {
-    margin: .10px;
-}
-
-/* Sección Internacinoal */
-
-.fondoInternacional{
-
-    background-color: #17c289bd;
-}
-
-#seccionInternacional{
-    text-align: center;
-    font-style: italic;
-    font-size: 40px;
-
-
-}
-
-.parrafoDiferente{
-
-    text-align: left;
-
-
-}
-
-/* Sección Entretenimiento */
-
-.fondoEntretenimiento{
-
-    background-color: #1a854abd;
-
-    background-image: url(../multimedia/redes.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-
-}
-
-.entretenimiento{
-
-    text-align: center;
-    font-style: italic;
-    font-size: 40px;
-
-
-
-}
-
-.entretenimiento__texto{
-
-    font-size: 20px;
-    text-align: left;
-
-
-}
-
-/* Seccion política */
-
-
-.seccionPolitica{
-
-    text-align: center;
-    font-style: italic;
-    font-size: 40px;
-
-}
-
-
+     
 .menu{
-
+ 
     background-color: #e4e72f;
     font-size: 25px;
     font-family: sans-serif;
     color: white;
     display: block;
     font-weight: bold;
-
 }
 
 .menu ul li{
@@ -234,94 +47,263 @@ aside > image {
     margin: 45px;
     padding: 30px;
     text-align: center;
-
-
+     
+     
     flex-direction: row;
 }
 
-
-
-
-.contacto{
-    
-    font-size: 40px;
-
-}
-
-h4{
-    text-align: center;
-
-    font-size: 25px;
-
-}
-
-h5{
-    font-size: 40px;
-
-}
-
-#piePagina{
-    text-align: center;
-    font-size: 20;
-}
-
-footer{
-
-    text-align: center;
-    background-color: #abdf1cb8;
-}
-
-h6{
-
-    font-size: 40px;
-    text-align: center;
-    background-color: #91711a9a;
-
-}
-
-ul li{
-    text-align: center;
-    list-style-type: none;
-    list-style: none;
-    display: inline;
-    align-items: center;
-}
- ul li a{
-     text-decoration: none;
-     display: inline; 
-     color: rgb(53, 77, 77);
- }
-
-
-
- /* OVERFLOW*/
-
-
-.presentacion{
-    background-color: #bd691b88;
-    color: rgb(18, 48, 48);
-    width: 500px;
-    height: 250px;
-    overflow: scroll;
-
+.logo{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
 }
 
 .encabezado{
 
-    font-size: 30px;
+    text-align: center;
+    background-color: #e4e72f7e;
+
+    margin: 5px;
+}
+
+.presentacion{
+
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+     
+    margin: 20px;
 
 
 }
 
-.video{
+.carousel{
 
+    width: 800px;
+    margin-left: 250px
+
+}
+
+.row.navbar.navbar-expand-lg.navbar-light.bg-light{
+
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-weight: bold;
+
+}
+
+.container-fluid.me{
+
+    background-color: #e4e72f;
+}
+
+.nav-item{
+
+    text-align: center;
+ 
+ 
+    flex-direction: row;
+
+
+}
+
+.col-6.imgin{
+
+    position: relative;
+    top: 40px;
+    left: 160px;
+    right: 50px;
+
+    width: 400px;
+    height: 450px;
+
+}
+
+.col-5.vid{
+
+  
+
+}
+
+
+/* Sección POLÍTICA */
+
+.col-12.af{
+
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+.col-12.aff{
+
+    margin: 20px;
+    padding-bottom: 15px;
+
+}
+
+
+.col-6.viid{
+ 
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+/* agrego */
+/* Sección Internacinoal */
+ 
+.fondoInternacional{
+ 
+    background-color: #17c289bd;
+}
+ 
+#seccionInternacional{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+ 
+ 
+}
+ 
+.parrafoDiferente{
+ 
+    text-align: left;
+ 
+ 
+}
+ 
+/* Sección Entretenimiento */
+ 
+.fondoEntretenimiento{
+ 
+    background-color: #1a854abd;
+ 
+    background-image: url(../multimedia/redes.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+ 
+}
+ 
+.entretenimiento{
+ 
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+ 
+ 
+ 
+}
+ 
+.entretenimiento__texto{
+ 
+    font-size: 20px;
+    text-align: left;
+ 
+ 
+}
+ 
+/* Seccion política */
+ 
+ 
+.seccionPolitica{
+ 
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+ 
+
+}
+ 
+ 
+.menu{
+ 
+    background-color: #e4e72f;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    font-weight: bold;
+ 
+}
+ 
+.menu ul li{
+    list-style-type: none;
+    list-style: none;
+    display: inline;
+    margin: 45px;
+    padding: 30px;
+    text-align: center;
+ 
+ 
+    flex-direction: row;
+}
+ 
+ 
+ 
+ 
+.contacto{
+   
+    font-size: 40px;
+ 
+}
+ 
+h4{
+    text-align: center;
+ 
+    font-size: 25px;
+ 
+}
+ 
+h5{
+    font-size: 40px;
+ 
+}
+ 
+#piePagina{
+    text-align: center;
+    font-size: 20;
+}
+ 
+footer{
+ 
+    text-align: center;
+    background-color: #abdf1cb8;
+}
+ 
+h6{
+ 
+    font-size: 40px;
+    text-align: center;
+    background-color: #91711a9a;
+ 
+}
+
+.encabezado{
+ 
+    font-size: 30px;
+ 
+ 
+}
+ 
+.video{
+ 
     position: relative;
     top: 0px;
     right: 0px;
     bottom: 300px;
     left: 250px;
 }
-
+ 
 .asidePol{
     width: 40%;
     padding-right: .5rem;
@@ -330,219 +312,31 @@ ul li{
     color: black;
     line-height: 1.6;
 }
-
+ 
 .fondoPol{
-
+ 
     background-color: #456ff896;
-
-
+ 
+ 
 }
-
-
+ 
+ 
 .imagenRusia{
-
+ 
 position: absolute;
 top: 570px;
 bottom: 50px ;
 left: 650px ;
-
-
+ 
+ 
 }
-
+ 
 .fondoContacto{
-
+ 
     background-color: #c58627d2;
-
-        text-align: center;
+ 
+    text-align: center;
     justify-content: center;
 }
-
-
-
-
-/* GRID INDEX*/
-
-.grid{
-
-    
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.1fr 0.4fr 0.2fr 0.2fr 1fr;
-    
-
-    grid-template-areas: 
-    "logo logo logo logo "
-    "titulo titulo titulo titulo"
-    "menu menu menu menu"
-    "slogan slogan slogan slogan"
-    "nosotros nosotros instagram instagram"
-    "footer footer footer footer"
-         
-    ;
-}
  
-
-/* MARGIN Y PADDING */
-
-.queco{
-
-    grid-area: logo;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-   
-
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-
-
-}
-
-
-
-
-
-.titulo{
-
-    grid-area: titulo;
-}
-
-.menu{
-
-    grid-area: menu;
-   
-
-}
-
-.footerIndex{
-
-
-    grid-area: footer;
-}
-
-.nosotros{
-
-    grid-area: nosotros;
-}
-
-.slogan{
-
-    grid-area: slogan;
-}
-
-.cuentaIg{
-
-    grid-area: instagram;
-
-    width: 200px;
-    height: 400px;
-
-    justify-content: right;
-}
-
-
-/* TAMAÑO TABLET */
-
-@media screen and (min-width: 768px) {
-
-    body{
-    
-        grid-template-columns: repeat (65, 1fr);
-        grid-template-areas: 
-        "logo logo logo"
-        "titulo titulo titulo"
-        "menu menu menu"
-        "slogan slogan slogan"
-        "nosotros nosotros nosotros"
-        "footer footer footer"
-    
-        
-        ;
-        }
-    
-        .quedo{
-            grid-area: logo;
-        }
-    
-        .titulo{
-            grid-area: titulo;
-        }
-    
-        .menu{
-            grid-area: menu;
-            background-color: #fbff07;
-        }
-    
-        .slogan{
-            grid-area: slogan;
-        }
-    
-    }
-    
-    /* TAMAÑO CELULAR */
-    
-    @media screen and (min-width: 320px) {
-    
-        body{
-            grid-template-columns: repeat (4, 1fr);
-            grid-template-areas: 
-            "logo titulo tituo ."
-            "menu menu menu menu"
-            "nosotros nosotros nosotros nosotros"
-            "slogan slogan footer footer"
-            ;
-    
-        }
-    
-        
-    
-    }
-
-
-/* GRID POLÍTICA*/
-.gridDos{
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 50px 300px 400px 100px;
-    
-
-    grid-template-areas: 
-    "logo logo logo"
-    "menu menu menu"
-    "texto texto texto"
-    "video video video"
-    "footer footer footer"
-
-    ;
-
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-
  
-  
-      
-    
-}
-
-.logoPol{
-
-    grid-area: logo;
-}
-
-
-
-.texto{
-
-    grid-area: texto;
-}
-
-.video{
-    grid-area: video;
-}
-
-.footPol{
-    grid-area: footer;
-}
