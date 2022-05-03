@@ -1,0 +1,60 @@
+.titulo{
+    height: 115px;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-style: italic;
+    background-color: #e4e72f;
+    text-align: center;
+        &:hover{
+            color: blue;
+        }
+}
+
+@keyframes aparecer{
+    0% {opacity: 100%;}
+    25% {opacity: 75%;}
+    60% {opacity: 50%;}
+    75% {opacity: 25%;}
+    100% {opacity: 0%;}
+ }
+
+.slogan{
+
+    background-image: radial-gradient(orange, red);
+    text-align: center;
+}
+     
+.menu{
+ 
+    background-color: #e4e72f;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+.menu ul li{
+    list-style-type: none;
+    list-style: none;
+    display: inline;
+    margin: 45px;
+    padding: 30px;
+    text-align: center; 
+    flex-direction: row;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.encabezado{
+
+    text-align: center;
+    background-color: #e4e72f7e;
+
+    margin: 5px;
+}

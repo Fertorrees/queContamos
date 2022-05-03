@@ -1,0 +1,208 @@
+@charset "UTF-8";
+.titulo {
+  height: 115px;
+  color: black;
+  font-size: 80px;
+  font-style: italic;
+  background-color: #e4e72f;
+  text-align: center; }
+  .titulo:hover {
+    color: blue; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 100%; }
+  25% {
+    opacity: 75%; }
+  60% {
+    opacity: 50%; }
+  75% {
+    opacity: 25%; }
+  100% {
+    opacity: 0%; } }
+
+.slogan {
+  background-image: radial-gradient(orange, red);
+  text-align: center; }
+
+.menu {
+  background-color: #e4e72f;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  display: block;
+  font-weight: bold; }
+
+.menu ul li {
+  list-style-type: none;
+  list-style: none;
+  display: inline;
+  margin: 45px;
+  padding: 30px;
+  text-align: center;
+  flex-direction: row; }
+
+.logo {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px; }
+
+.encabezado {
+  text-align: center;
+  background-color: #e4e72f7e;
+  margin: 5px; }
+
+/* Sección Entretenimiento */
+.fondoEntretenimiento {
+  background-color: #1a854abd;
+  background-image: url(../multimedia/redes.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed; }
+
+.entretenimiento {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px; }
+
+.entretenimiento__texto {
+  font-size: 20px;
+  text-align: left; }
+
+/* Sección Internacinoal */
+.fondoInternacional {
+  background-color: #17c289bd; }
+
+#seccionInternacional {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px; }
+
+.parrafoDiferente {
+  text-align: left; }
+
+/* Sección POLÍTICA */
+.col-12.af {
+  margin: 10px;
+  padding-bottom: 15px; }
+
+.col-12.aff {
+  margin: 20px;
+  padding-bottom: 15px; }
+
+.col-6.viid {
+  padding-bottom: 10px; }
+
+.seccionPolitica {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px; }
+
+.presentacion {
+  background-color: #ffcc00;
+  text-align: center;
+  margin: 20px; }
+
+.carousel {
+  width: 800px;
+  margin-left: 250px; }
+
+.row.navbar.navbar-expand-lg.navbar-light.bg-light {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: black;
+  display: block;
+  font-weight: bold; }
+
+.container-fluid.me {
+  background-color: #e4e72f; }
+
+.nav-item {
+  text-align: center;
+  flex-direction: row; }
+
+.col-6.imgin {
+  position: relative;
+  top: 40px;
+  left: 160px;
+  right: 50px;
+  width: 400px;
+  height: 450px;
+  animation-name: aparecer;
+  animation-duration: 4s;
+  animation-delay: 5s;
+  animation-timing-function: linear; }
+
+/* Seccion política */
+.menu {
+  background-color: #e4e72f;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  display: block;
+  font-weight: bold; }
+
+.menu ul li {
+  list-style-type: none;
+  list-style: none;
+  display: inline;
+  margin: 45px;
+  padding: 30px;
+  text-align: center;
+  flex-direction: row; }
+
+.contacto {
+  font-size: 40px; }
+
+h4 {
+  text-align: center;
+  font-size: 25px; }
+
+h5 {
+  font-size: 40px; }
+
+#piePagina {
+  text-align: center;
+  font-size: 20; }
+
+footer {
+  text-align: center;
+  background-color: #abdf1cb8; }
+
+h6 {
+  font-size: 40px;
+  text-align: center;
+  background-color: #91711a9a; }
+
+.encabezado {
+  font-size: 30px; }
+
+.video {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 300px;
+  left: 250px; }
+
+.asidePol {
+  width: 40%;
+  padding-right: .5rem;
+  margin-right: .5rem;
+  float: left;
+  color: black;
+  line-height: 1.6; }
+
+.fondoPol {
+  background-color: #456ff896; }
+
+.imagenRusia {
+  position: absolute;
+  top: 570px;
+  bottom: 50px;
+  left: 650px; }
+
+.fondoContacto {
+  background-color: #c58627d2;
+  text-align: center;
+  justify-content: center; }
